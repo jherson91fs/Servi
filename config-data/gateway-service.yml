@@ -19,3 +19,7 @@ spring:
           uri: lb://catalogo-service
           predicates:
             - Path=/categoria/**
+        - id: cliente-service
+          uri: lb://cliente-service
+          predicates:
+            - Path=/cliente/**
