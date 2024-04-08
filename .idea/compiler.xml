@@ -25,7 +25,7 @@
       <module name="ms-catalogo" options="-parameters" />
       <module name="ms-config-server" options="-parameters" />
       <module name="ms-gateway-serve" options="-parameters" />
-      <module name="ms-gateway-server" options="" />
+      <module name="ms-gateway-server" options="-parameters" />
       <module name="ms-pedido" options="-parameters" />
       <module name="ms-registry-server" options="-parameters" />
     </option>
