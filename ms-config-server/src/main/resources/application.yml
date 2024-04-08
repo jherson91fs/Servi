@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Drewpl2021/DAD-Andr-s.git # ruta del repositorio git
+          uri: https://github.com/Drewpl2021/DAD-Andr-s.git
           searchPaths: config-data
           #username:
           #password:
