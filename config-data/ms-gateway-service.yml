@@ -1,5 +1,5 @@
 server:
-  port: 8060
+  port: 8001
 
 
 
@@ -24,4 +24,4 @@ spring:
         - id: ms-catalogo-service
           uri: lb://ms-catalogo-service
           predicates:
-            - Path=/catalogo/**
+            - Path=/categoria/**
