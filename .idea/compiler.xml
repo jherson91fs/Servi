@@ -10,11 +10,13 @@
         <module name="ms-config-server" />
         <module name="cliente" />
         <module name="ms-pedido" />
-        <module name="ms-gateway-serve" />
         <module name="ms-registry-server" />
         <module name="ms-catalogo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-gateway-serve" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

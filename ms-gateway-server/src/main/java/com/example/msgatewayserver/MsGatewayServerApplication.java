@@ -1,13 +1,13 @@
-package com.example.msgatewayserve;
+package com.example.msgatewayserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MsGatewayServeApplication {
+public class MsGatewayServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MsGatewayServeApplication.class, args);
+		SpringApplication.run(MsGatewayServerApplication.class, args);
 	}
 
 }
