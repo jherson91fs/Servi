@@ -31,6 +31,6 @@ public class PedidoController {
     }
     @DeleteMapping("/{id}")
     public String deleteById(@PathVariable(required = true) Integer id){ pedidoService.eliminarPorId(id);
-        return "Eliminado Correctamente :3";
+        return "Eliminado Correctamente";
     }
 }

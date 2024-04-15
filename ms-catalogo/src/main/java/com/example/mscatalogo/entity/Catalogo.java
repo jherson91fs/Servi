@@ -12,11 +12,4 @@ public class Catalogo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String nombre;
-
-    @OneToMany(mappedBy = "catalogo", cascade = CascadeType.ALL)
-    private List<Producto> productos;
-
-    @ManyToOne
-    @JoinColumn(name = "Producto_id")
-    private Producto producto;
 }
