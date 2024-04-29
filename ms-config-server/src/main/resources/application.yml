@@ -1,5 +1,5 @@
 server:
-  port: 7070
+  port: 7071
 
 
 spring:
@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Drewpl2021/DAD-Andr-s.git
+          uri: https://github.com/jherson91fs/Servi.git
           searchPaths: config-data
           #username:
           #password:
